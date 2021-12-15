@@ -1,10 +1,12 @@
    :root {
        text-align: center;
        font-family: 'fuzzie bubbles';
-       background-image: linear-gradient(to bottom, white, #120c65, #000);
+       background-image: repeating-linear-gradient(#fff, white, skyblue, #120c56, #000 );
+       background-repeat: repeat-y; 
     }
     .legenda {
         margin: auto;
+        color: #fff;
     }
     #sistema-solar {
         border-radius: 10px;
@@ -16,10 +18,11 @@
         max-width: 320px;
         margin: auto;
     }
-    .white-text {
-        color: whitesmoke;
+    .yellow-sun {
+        color: yellow;
+        color-adjust: whitesmoke;
     }
-    .white {
+    .white-text {
         color: whitesmoke;
     }
     .container {
@@ -138,7 +141,7 @@
         width: 14px;
         height: 14px;
         border-radius: 50%;
-        box-shadow: 150px 50px whitesmoke;
+        box-shadow: 150px 50px white;
         animation: anim-moon 60s linear infinite;
       }
       @keyframes anim-moon{
