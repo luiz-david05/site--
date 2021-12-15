@@ -1,0 +1,151 @@
+   :root {
+       text-align: center;
+       font-family: 'fuzzie bubbles';
+       background-image: linear-gradient(to bottom, white, gray, black);
+    }
+    .legenda {
+        margin: auto;
+    }
+    #sistema-solar {
+        border-radius: 10px;
+        max-width: 320px;
+        margin: auto;
+    }
+    .sol {
+        border-radius: 10px;
+        max-width: 320px;
+        margin: auto;
+    }
+    .white-text {
+        color: whitesmoke;
+    }
+    .white {
+        color: whitesmoke;
+    }
+    .container {
+        max-width: 1440px;
+        min-width: 320px;
+        height: 150px;
+        background: linear-gradient(0, #120c56, #000000);
+        border-radius: 10px;
+    }
+    .stars{
+        position: relative;
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        box-shadow: 50px 30px white,
+        80px 120px white,
+        100px 80px white,
+        150px 100px white,
+        200px 50px white,
+        250px 130px white,
+        320px 50px white,
+        350px 30px white,
+        300px 80px white, 
+        400px 120px white,
+        450px 130px white,
+        500px 30px white,
+        550px 50px white,
+        600px 130px white;
+        animation: anim-stars 30s linear infinite;
+    }
+    @keyframes anim-stars{
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(-150px); 
+        }
+    }
+    .stars::after{
+        content: " ";
+        position: absolute;
+        top: 150px;
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        box-shadow: 50px 30px white,
+        80px 120px white,
+        100px 80px white,
+        150px 100px white,
+        200px 50px white,
+        250px 130px white,
+        320px 50px white,
+        350px 30px white,
+        300px 80px white, 
+        400px 120px white,
+        450px 130px white,
+        500px 30px white,
+        550px 50px white,
+        600px 130px white;
+        }
+    .stars2{
+        position: relative;
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        box-shadow: 15px 15px white,
+        125px 35px white,
+        50px 80px white,
+        10px 120px white,
+        275px 90px white,
+        230px 10px white,
+        120px 130px white,
+        300px 130px white,
+        220px 115px white,
+        350px 30px white,
+        460px 55px white,
+        510px 80px white,
+        500px 130px white,
+        585px 15px white,
+        660px 100px white,
+        700px 125px white,
+        900px 10px white,
+        1350px 34px white,
+        1590px 100px white;
+        animation: anim-stars 40s linear infinite;
+    }
+    .stars2::after{
+        content: " ";
+        position: absolute;
+        top: 150px;
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        box-shadow: 15px 15px white,
+        125px 35px white,
+        50px 80px white,
+        10px 120px white,
+        275px 90px white,
+        230px 10px white,
+        120px 130px white,
+        300px 130px white,
+        350px 30px white,
+        460px 55px white,
+        510px 80px white,
+        500px 130px white,
+        585px 15px white,
+        660px 100px white,
+        700px 125px white,
+        900px 10px white,
+        1350px 34px white,
+        1590px 100px white,
+        220px 115px white;
+      }
+      .moon{
+        position: relative;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        box-shadow: 150px 50px whitesmoke;
+        animation: anim-moon 60s linear infinite;
+      }
+      @keyframes anim-moon{
+        from {
+            transform: translateX(0px);
+        }
+        to {
+            transform: translateX(-150px); 
+        }
+    }
