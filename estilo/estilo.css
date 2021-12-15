@@ -1,7 +1,7 @@
    :root {
        text-align: center;
        font-family: 'fuzzie bubbles';
-       background-image: linear-gradient(to bottom, white, gray, black);
+       background-image: linear-gradient(to bottom, white, #120c65, #000);
     }
     .legenda {
         margin: auto;
