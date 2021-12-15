@@ -2,7 +2,7 @@
        text-align: center;
        font-family: 'fuzzie bubbles';
        background-image: repeating-linear-gradient(#fff, white, skyblue, #120c56, #000 );
-       background-repeat: repeat-y; 
+       background-repeat: repeat-y;
     }
     .legenda {
         margin: auto;
